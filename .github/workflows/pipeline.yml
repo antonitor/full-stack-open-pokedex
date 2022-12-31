@@ -1,3 +1,12 @@
+name: Pipeline lint
+
+on:
+  push:
+    branches:
+      - master
+      # note that your "main" branch might be called main instead of master
+
+
 jobs:
   simple_deployment_pipeline:
     runs-on: ubuntu-20.04
